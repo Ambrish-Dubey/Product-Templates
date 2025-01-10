@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+*
+{
+    font-family: 'orbitron';
+}
+
+
+.row {
+    /*background-color: black;*/
+    height: 100vh;
+    /*overflow: hidden;*/
+
+    .col-lg-8 {
+        /*background-color: red;*/
+        height: auto;
+
+        .img
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15% auto;
+        }
+    }
+
+    .col-lg-4
+    {
+        /*background-color: black;
+        color: white;*/
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .row
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            background-color: white;
+            color: black;
+            background-color: black;
+            color: white;
+            height: 70vh;
+            width: 90vh;
+            border: 1px solid white;
+            border-radius: 30px;
+            gap: 0px;
+            
+
+            .col-md-4
+            {
+                /*background-color: aqua;*/
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 80%;
+                margin: 15px auto;
+                
+                
+
+                .form-control ,form-label
+                {
+                    border-radius: 20px;
+                }
+
+                
+            }
+
+            .bt
+            {
+                display: inline-block;
+                /*background-color: purple;*/
+
+                .btn
+                {
+                    background-color: rgb(49, 151, 149);
+                }
+            }
+        }
+    }
+
+
+}
